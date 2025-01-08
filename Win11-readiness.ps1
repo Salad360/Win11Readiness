@@ -1,6 +1,6 @@
 # Run by pasting into Admin Powershell window: 
 
-#  iex ((New-Object System.Net.WebClient).DownloadString('<URL of repo here>'))
+#  iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Salad360/Win11Readiness/refs/heads/main/Win11-readiness.ps1'))
 # May reqire first running this command: [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
 HOSTNAME.EXE > report.txt
 
